@@ -15,8 +15,7 @@
     "isolatedModules": true,
     "jsx": "react",
     "sourceMap": true,
-    "declaration": true,
-    "emitDeclarationOnly": true
+    "declaration": true
   },
   "include": ["packages"],
   "exclude": ["node_modules", "packages/**/dist"]

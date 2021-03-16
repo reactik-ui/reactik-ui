@@ -1,6 +1,6 @@
 import space, { Spacing } from './space';
 
-interface Theme extends Spacing {}
+export interface Theme extends Spacing {}
 
 const theme: Theme = {
   ...space,
