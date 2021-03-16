@@ -1,8 +1,11 @@
 {
-  "name": "@reactik-ui/button",
+  "name": "@reactik-ui/theme",
   "version": "0.1.0",
+  "description": "Theme definitions for Reactik UI",
   "main": "dist/index.js",
   "module": "src/index.ts",
+  "author": "Fernando Cornejo",
+  "license": "MIT",
   "dependencies": {
     "react": "latest",
     "react-dom": "latest",
