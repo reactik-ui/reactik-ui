@@ -9,7 +9,8 @@
   "dependencies": {
     "react": "latest",
     "react-dom": "latest",
-    "styled-components": "latest"
+    "styled-components": "latest",
+    "tinycolor2": "^1.4.2"
   },
   "peerDependencies": {
     "react": "^16.0.0",
@@ -17,6 +18,10 @@
     "styled-components": "^5.0.0"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/tinycolor2": "^1.4.2"
   }
 }

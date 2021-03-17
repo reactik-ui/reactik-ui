@@ -5,7 +5,7 @@ export interface Spacing {
   space: number[];
 }
 
-const space: Spacing = {
+export const space: Spacing = {
   /**
    * Space multiplier. Used to convert values to spacing measures.
    */
@@ -29,5 +29,3 @@ const space: Spacing = {
     return this.spacers.map(m => this.spacing(m));
   },
 };
-
-export default space;
