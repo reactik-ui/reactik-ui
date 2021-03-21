@@ -26,5 +26,14 @@ export interface Colors {
 export const colors: Colors = {
   colors: {
     blue: generateColorScale('#51A2EA'),
+    green: generateColorScale('#22c35e'),
+    teal: generateColorScale('#23a1a1'),
+    red: generateColorScale('#e35454'),
+    orange: generateColorScale('#ED8936'),
+    yellow: generateColorScale('#ECC94B'),
+    pink: generateColorScale('#ED64A6'),
+    purple: generateColorScale('#bb49de'),
+    gray: generateColorScale('#aaadb5'),
+    bluegray: generateColorScale('#9293b3'),
   },
 };
