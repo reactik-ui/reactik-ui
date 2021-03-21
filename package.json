@@ -5,11 +5,14 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@storybook/addon-docs": "^6.1.21",
+    "@storybook/react": "^6.1.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "@types/styled-components": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
+    "concurrently": "^6.0.0",
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
@@ -36,7 +39,13 @@
     "clean": "rimraf -rf packages/**/dist",
     "declarations": "tsc",
     "build": "yarn clean && lerna run build",
+    "watch": "yarn clean && lerna run watch",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "develop": "start-storybook -p 5555"
+  },
+  "dependencies": {
+    "@types/styled-system": "^5.1.10",
+    "styled-system": "^5.1.5"
   }
 }
